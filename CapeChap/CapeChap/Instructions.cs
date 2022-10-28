@@ -19,7 +19,7 @@ namespace CapeChap
         public abstract void giveQuest();
         public void showQuest()
         {
-            Console.WriteLine("Go to the Town Square Now\n");
+            Console.WriteLine("Go to the Town Square Now!!!\n");
         }
     }
 
@@ -27,7 +27,7 @@ namespace CapeChap
     {
         public override void giveQuest()
         {
-            Console.WriteLine("Congratulations on Completing the Creation of Your Character\n");
+            Console.WriteLine("Congratulations on Completing the Creation of Your Character");
         }
     }
 }
