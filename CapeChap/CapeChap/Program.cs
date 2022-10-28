@@ -7,13 +7,14 @@ namespace CapeChap
 {
     public class program
     {
-        public static void ShowInfo(JackGame j) 
+        public static void ShowInfo(JackGame j) //method to get details from the JackGame class if you ask why the other things in main like Arch War and Ma can still be used its
+                                                //because it is derived from the JackGame class
         {
             string details = j.GetInfoG();
             Console.WriteLine(details);
             Console.ReadLine();
         }
-        static void Main(string[] args)
+        static void Main(string[] args) // main method
         {
             Console.WriteLine("Jack Game\n");
             Quest que = new Quest();

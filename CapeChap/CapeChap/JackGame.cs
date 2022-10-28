@@ -25,17 +25,17 @@ namespace CapeChap
         private string gamePin; // Encapsulation 
         private string server; // Encapsulation //HongKong, United States, Tokyo, United Kingdom
 
-        public string Pin
+        public string Pin //gamePin get and set to let other classes access the private fields
         {
             get { return gamePin; }
             set { gamePin = value; }
         }
-        public string Ser
+        public string Ser //server get and set to let other classes access the private fields
         {
             get { return server; }
             set { server = value; }
         }
-        public virtual string GetInfoG()
+        public virtual string GetInfoG() //method to get the different fields from this class
         {
             return "\tCustomer:" + nickName + "(" + LvlofChar + ") " + "\n\tGame Pin: " + gamePin + "\n\tType Of Server: " + server + "\n"; 
         }

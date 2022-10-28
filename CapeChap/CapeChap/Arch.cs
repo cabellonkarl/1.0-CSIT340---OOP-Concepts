@@ -12,15 +12,15 @@ namespace CapeChap
     ///         I used the said OOP Concept here since I need different types of Character for my Game Info.
     ///         The purpose why I used Inheritance here is to simply add the different types of Character in the Game.>
     /// </summary>
-    public class Arch : JackGame // inheritance
+    public class Arch : JackGame // Base Class is JackGame to access the different fields there. Archer Character
     {
         public String Archer { get; set; }
-        public override string GetInfoG() //Polymorphism
+        public override string GetInfoG() //method to get the different fields and add the Archer field
         {
             return "\tPlayer:" + nickName + "(" + LvlofChar + ") " + "\n\tType Of Character: " + Archer + "\n\tGame Pin: " + Pin + "\n\tType Of Server: " + Ser + "\n";
         }
     }
-    public class War : JackGame // inheritance
+    public class War : JackGame // Base Class is JackGame to access the different fields there. Warrior Character
     {
         public String Warrior { get; set; }
         /// <summary>
@@ -30,16 +30,16 @@ namespace CapeChap
         ///         in the Arch class you can see I used Arch and in the Warrrior class I used warrior but it is still the same method GetInfoG
         ///         I used it here so I can simply change the data easily since the inheritance classes are all from the same parent class JackGame>
         /// </summary>
-        public override string GetInfoG() //Polymorphism
+        public override string GetInfoG() ////method to get the different fields from the base class and add the Warriors field
         {
             return "\tPlayer: " + nickName + "(" + LvlofChar + ") " + "\n\tType Of Character: " + Warrior + "\n\tGame Pin: " + Pin + "\n\tType Of Server: " + Ser + "\n";
         }
     }
-    public class Ma : JackGame // inheritance
+    public class Ma : JackGame // Base Class is JackGame to access the different fields there. Mage Character
     {
         public String Mage { get; set; }
 
-        public override string GetInfoG() //Polymorphism
+        public override string GetInfoG() // method to get the different fields and add the Mage field
         {
             return "\tCustomer:" + nickName + "(" + LvlofChar + ") " + "\n\tType Of Character: " + Mage + "\n\tGame Pin: " + Pin + "\n\tType Of Server: " + Ser + "\n";
         }
