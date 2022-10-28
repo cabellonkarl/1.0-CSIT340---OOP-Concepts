@@ -1,0 +1,15 @@
+C:\Users\kash\source\repos\CapeChap\CapeChap\bin\Debug\net6.0\CapeChap.exe
+C:\Users\kash\source\repos\CapeChap\CapeChap\bin\Debug\net6.0\CapeChap.deps.json
+C:\Users\kash\source\repos\CapeChap\CapeChap\bin\Debug\net6.0\CapeChap.runtimeconfig.json
+C:\Users\kash\source\repos\CapeChap\CapeChap\bin\Debug\net6.0\CapeChap.dll
+C:\Users\kash\source\repos\CapeChap\CapeChap\bin\Debug\net6.0\CapeChap.pdb
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.csproj.AssemblyReference.cache
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.AssemblyInfoInputs.cache
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.AssemblyInfo.cs
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.csproj.CoreCompileInputs.cache
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.dll
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\refint\CapeChap.dll
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.pdb
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\CapeChap.genruntimeconfig.cache
+C:\Users\kash\source\repos\CapeChap\CapeChap\obj\Debug\net6.0\ref\CapeChap.dll
